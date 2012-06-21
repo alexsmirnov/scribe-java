@@ -63,7 +63,9 @@ public abstract class DefaultApi20 implements Api
    * Returns the grant_type parameter value for access token requests.
    * @return the grant_type parameter placed in access token request
    */
-  public abstract String getGrantType();
+  public String getGrantType(){
+	  return null;
+  }
 
   /**
    * {@inheritDoc}
